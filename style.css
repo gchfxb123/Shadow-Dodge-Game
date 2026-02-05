@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #111, #000);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+#ui {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  z-index: 10;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 4px 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0af;
+  color: black;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: #050505;
+  border: 2px solid #333;
+}
